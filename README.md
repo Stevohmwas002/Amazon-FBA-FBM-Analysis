@@ -34,7 +34,7 @@ Full detail: [`docs/problem_statement.pdf`](docs/problem_statement.pdf)
 ##  Dashboard Pages
 
 ### 1. Profit & Sales
-![Profit & Sales overview](screenshots/profit_1.png)
+![Profit & Sales overview](Screenshots/profit_1.png)
 
 Gross revenue, net profit, margin, and ROI at the top, with drill-down by category, product, region, and month. Supports cross-filtering — e.g. clicking a category updates refund rate and revenue-by-region simultaneously.
 
@@ -42,17 +42,17 @@ Gross revenue, net profit, margin, and ROI at the top, with drill-down by catego
 <summary>Drill-through examples</summary>
 
 Filtered to **Home Office**: $113.89K gross revenue, 44.31% margin, 3.32% refund rate — but a 4.91% refund rate specifically within that category once isolated.
-![Home Office drill-through](screenshots/profit_2.png)
+![Home Office drill-through](Screenshots/profit_2.png)
 
 Filtered to **US-West** (the underperforming region): revenue drops to $5.36K with a **-45.90% margin** — this region is currently losing money, not just underperforming.
-![US-West drill-through](screenshots/profit_3.png)
+![US-West drill-through](Screenshots/profit_3.png)
 
 </details>
 
 **Key measures:** Gross Revenue, Net Profit, Profit Margin %, TACOS, Refund Rate %, Revenue by Category/Product/Region.
 
 ### 2. Advertising / PPC
-![Advertising overview](screenshots/ads_1.png)
+![Advertising overview](Screenshots/ads_1.png)
 
 Total spend, ad-driven revenue share, attributed orders, and return on ad spend, broken out by campaign type (Sponsored Products / Brands / Display) with a date range slicer.
 
@@ -60,17 +60,17 @@ Total spend, ad-driven revenue share, attributed orders, and return on ad spend,
 <summary>Drill-through examples</summary>
 
 Filtered to **Sponsored Brands**: $3.76K spend, only 0.97% ad-driven revenue share, but a strong 41.52% return — small spend, efficient return.
-![Sponsored Brands drill-through](screenshots/ads_1.png)
+![Sponsored Brands drill-through](Screenshots/ads_1.png)
 
 Filtered to **Sponsored Display**: $1.23K spend, 51.16% return — the highest-performing campaign type by return, despite the smallest budget.
-![Sponsored Display drill-through](screenshots/ads_2.png)
+![Sponsored Display drill-through](Screenshots/ads_2.png)
 
 </details>
 
 **Key measures:** Total Ad Spend, ACOS, ROAS, CTR, CVR, Ad-Driven Revenue %, Return of Ad Spend by Category.
 
 ### 3. Inventory & Operations
-![Inventory overview](screenshots/inventory_1.png)
+![Inventory overview](Screenshots/inventory_1.png)
 
 Inventory turnover, stockout rate, inbound shipment defects, and an overstock/FBA-fee breakdown by product, plus a Supply & Demand Balance scatter (stock coverage days vs. sales momentum) to flag SKUs that are over- or under-stocked relative to how fast they're selling.
 
@@ -78,14 +78,14 @@ Inventory turnover, stockout rate, inbound shipment defects, and an overstock/FB
 <summary>Drill-through examples</summary>
 
 Filtered to **Phone Tripod Stand**: turnover falls to 0.43, with a 34.25% overstock rate and $1,026.60 tied up in excess stock — a clear candidate to cut the next reorder quantity.
-![Phone Tripod Stand drill-through](screenshots/inventory_2.png)
+![Phone Tripod Stand drill-through](Screenshots/inventory_2.png)
 
 </details>
 
 **Key measures:** Inventory Turnover, Days of Supply, Stockout Rate %, Overstock %, FBA Fee % by Category, Inbound Shipment Defects.
 
 ### 4. Customers
-![Customers overview](screenshots/customers_1.png)
+![Customers overview](Screenshots/customers_1.png)
 
 Customer Acquisition Cost, Customer Lifetime Value, churn, total customers, and repurchase rate, with a monthly churn table broken out by acquisition channel and a CLV-by-channel comparison.
 
