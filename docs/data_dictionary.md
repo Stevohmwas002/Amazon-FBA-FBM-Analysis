@@ -167,14 +167,9 @@ Covers two layers: the **source tables** (raw synthetic data feeding Power BI) a
 | FBM | Fulfillment by Merchant |
 | COGS | Cost of Goods Sold |
 | TACOS | Total Advertising Cost of Sales |
-| ACOS | Advertising Cost of Sale |
 | ROAS | Return on Ad Spend |
 | CTR | Click-Through Rate |
 | CVR | Conversion Rate |
 | CAC | Customer Acquisition Cost |
 | CLV / LTV | Customer Lifetime Value |
-| OMTM | One Metric That Matters |
-| MAD | Mean Absolute Deviation |
-| IQR | Interquartile Range |
-| AIC | Akaike Information Criterion |
 | ROC / AUC | Receiver Operating Characteristic / Area Under the Curve |
