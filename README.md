@@ -6,7 +6,7 @@ Built to answer one question a business owner actually cares about: **is the bus
 
 ---
 
-## 📊 Live Deliverables
+##  Live Deliverables
 
 | Document | Purpose |
 |---|---|
@@ -16,7 +16,7 @@ Built to answer one question a business owner actually cares about: **is the bus
 
 ---
 
-## 🧭 The Business Problem
+##  The Business Problem
 
 The store generated **$579.98K** in gross revenue and a **49.26%** net profit margin in FY2025. On paper that looks healthy — but profit and revenue alone can't tell you *where* money is being made, *where* it's leaking, or whether the customer base being built today will still be profitable next year.
 
@@ -31,7 +31,7 @@ Full detail: [`docs/problem_statement.pdf`](docs/problem_statement.pdf)
 
 ---
 
-## 📈 Dashboard Pages
+##  Dashboard Pages
 
 ### 1. Profit & Sales
 ![Profit & Sales overview](screenshots/profit_1.png)
@@ -93,7 +93,7 @@ Customer Acquisition Cost, Customer Lifetime Value, churn, total customers, and 
 
 ---
 
-## 🔑 Key Insights (current build)
+##  Key Insights (current build)
 
 - **CLV now exceeds CAC** ($96.66 vs. $66.52, a 1.45:1 ratio) — a healthy direction, though still below the commonly-used 3:1 benchmark for a sustainable acquisition model.
 - **US-West is currently unprofitable**, not just underperforming: -45.90% margin on $5.36K revenue, versus $135K–$152K and 40%+ margins in the other three regions.
@@ -105,7 +105,7 @@ Full breakdown with recommendations: [`docs/executive_summary.pdf`](docs/executi
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Power BI Desktop** — dashboard, DAX measures, drill-through, cross-filtering, slicers
 - **Python** (pandas, numpy) — synthetic dataset generation (`generate_data.py`)
@@ -113,7 +113,7 @@ Full breakdown with recommendations: [`docs/executive_summary.pdf`](docs/executi
 
 ---
 
-## 🗂 Data Model
+##  Data Model
 
 Star-schema style model with `orders` as the primary fact table:
 
@@ -130,7 +130,7 @@ Full field-level definitions: [`docs/data_dictionary.md`](docs/data_dictionary.m
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 ├── data/
@@ -158,7 +158,7 @@ Full field-level definitions: [`docs/data_dictionary.md`](docs/data_dictionary.m
 
 ---
 
-## ▶️ How to Reproduce
+##  How to Reproduce
 
 1. Clone the repo.
 2. Run the dataset generator:
@@ -171,7 +171,7 @@ Full field-level definitions: [`docs/data_dictionary.md`](docs/data_dictionary.m
 
 ---
 
-## ⚠️ Known Issues / Debugging Log
+##  Known Issues / Debugging Log
 
 Documenting this because it's a more honest and more useful record than pretending the first version was correct:
 
@@ -180,7 +180,6 @@ Documenting this because it's a more honest and more useful record than pretendi
 
 ## 📌 Limitations
 
-- Underlying data is **synthetic**, generated to plausibly resemble Amazon Seller Central exports (with intentional outliers, seasonality, and two simulated stockout events) — it is not real sales data.
 - Ad spend is only mapped to campaign type, not to the four customer acquisition channels shown in the Customers page — a real store would need a joined attribution table to calculate CAC by channel precisely.
 
 ---
