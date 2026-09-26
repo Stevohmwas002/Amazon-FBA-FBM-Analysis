@@ -1,3 +1,5 @@
+# Dashboard 
+
 # Amazon FBA & FBM Seller Analytics Dashboard
 
 An end-to-end analytics project simulating a multi-category Amazon storefront — synthetic dataset generation, a 4-page Power BI dashboard, and supporting business documentation (problem statement, executive summary, data dictionary).
